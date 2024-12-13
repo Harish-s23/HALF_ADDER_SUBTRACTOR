@@ -56,15 +56,13 @@ Developed by:Haresh R
 RegisterNumber:24901004
 
 **RTL Schematic**
-![Screenshot 2024-12-13 232825](https://github.com/user-attachments/assets/636c7e65-767f-4d4e-a35c-3680ebf0ac73)
-![Screenshot 2024-12-13 232842](https://github.com/user-attachments/assets/e55fdf8f-42d5-429d-a588-cf6b29dcf84e)
+![Screenshot 2024-12-13 232842](https://github.com/user-attachments/assets/e9cb97a2-3943-4bfd-b734-20db5a6d4eba)
+![Screenshot 2024-12-13 232825](https://github.com/user-attachments/assets/fb270949-3382-4214-be5e-e76e2bceec7f)
 
 
 **Output/TIMING Waveform**
-![Screenshot 2024-12-13![Screenshot 2024-12-13 233019](https://github.com/user-attachments/assets/ea327df2-a6a5-4436-b0f6-18b22405aee6)
- 233003](https://github.com/user-attachments/assets/cd6c20d8-840f-44e7-a854-b9edf55f4666)
+![Screenshot 2024-12-13 233019](https://github.com/user-attachments/assets/f7845775-d040-49c5-a935-f4016b87b4e3)
+![Screenshot 2024-12-13 233003](https://github.com/user-attachments/assets/53616878-7786-4438-9dbd-c30fa94c7f9a)
 
 
 **Result:**
- hence the programm for half adder and half subtractor nd verification of its
- truth table in quartus using verilog programming is verified
