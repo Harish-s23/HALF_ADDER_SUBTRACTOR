@@ -66,3 +66,5 @@ RegisterNumber:24901004
 
 
 **Result:**
+hence the programm for half adder and half subtractor nd verification of its
+ truth table in quartus using verilog programming is verified
