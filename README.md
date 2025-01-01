@@ -1,3 +1,9 @@
+
+Developed by: S. Harish
+
+
+RegisterNumber: 24901004
+
 # HALF_ADDER_SUBTRACTOR
 
 Implementation-of-Half-Adder-and-Half Subtractor-circuit
@@ -32,8 +38,10 @@ Borrow = A’B
  ![image](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/154305477/d76b099c-513f-4e7c-843a-e2fd028a531a)
 
 Figure -02 HALF Subtractor
+![386819611-42f52402-ca97-4d8d-abf6-aeb8f3f486fb](https://github.com/user-attachments/assets/309418a1-4d79-4dce-b4ef-cabc70fc94fb)
 
 **Truthtable**
+![386819591-ad8496b6-5434-47fa-bda5-11fd16849f6d](https://github.com/user-attachments/assets/2c47db4f-fef9-475e-976c-6ab2a4abec23)
 
 **Procedure**
 
@@ -51,39 +59,14 @@ Figure -02 HALF Subtractor
 **Program:**
 
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
+programming. module ex03(a,b,cy, sm, df,bo); input a,b; output sm,cy, df, bo; xor(sm,a,b); and(cy,a,b); xor(df,a,b); and (bo,~a,b); endmodule
 
-module half_add(a,b,bin,cy,df);
- input a,b,bin;
- output cy,df;
- xor(sm,a,b);
- and(bo,~a,b);
- wire w1,w2,w3;
- assign w1=a^b;
- assign w2=(~a&b);
- assign w3=(~w1&bin);
- assign df =w1^bin;
- assign bo=w2|w3;
- endmodule
-module half_sub(a,b,difference,borrow);
-input a,b;
-output difference,borrow;
-assign difference= (a ^ b);
-assign borrow= ( ~a & b);
-endmodule
-
-Developed by:Haresh R
-RegisterNumber:24901004
 
 **RTL Schematic**
-![Screenshot 2024-12-13 232842](https://github.com/user-attachments/assets/e9cb97a2-3943-4bfd-b734-20db5a6d4eba)
-![Screenshot 2024-12-13 232825](https://github.com/user-attachments/assets/fb270949-3382-4214-be5e-e76e2bceec7f)
-
+![386819635-5e498bee-1249-4c1e-86e7-ae842d389c4a](https://github.com/user-attachments/assets/91b90c51-43b4-45a5-aa0d-4ec435800f61)
 
 **Output/TIMING Waveform**
-![Screenshot 2024-12-13 233019](https://github.com/user-attachments/assets/f7845775-d040-49c5-a935-f4016b87b4e3)
-![Screenshot 2024-12-13 233003](https://github.com/user-attachments/assets/53616878-7786-4438-9dbd-c30fa94c7f9a)
-
+![386819645-16f7624a-2847-49bf-bbb0-f25cb22d3bc2](https://github.com/user-attachments/assets/319f3a36-16e0-4246-81fb-66ffc6c31ca2)
 
 **Result:**
-hence the programm for half adder and half subtractor nd verification of its
- truth table in quartus using verilog programming is verified
+Thus the Half Adder and Half Subtractor circuits are designed and the truth tables is verified using Quartus software.
